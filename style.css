@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ;
+}
+
+nav {
+  width: 1200px;
+  margin: auto;
+  margin-top: 17px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  width: 470px;
+  justify-content: space-between;
+  color: #95E1D3;
+  
+}
+
+.menu-list > li:hover{
+color:#f38181;
+border-bottom: 3px solid #f38181;
+
+}
+
+.hero {
+  width: 1275px;
+  height: 136px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero > h1 {
+  margin-top: 20px;
+  font-size: xx-large;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.hero > p{
+  font-family: 'Kaushan Script', cursive;
+  font-size: large;
+}
+
+.hero > div {
+  width: 60px;
+  height: 4px;
+  background-color: #f38181;
+  margin: auto;
+  margin-top: 40px;
+  
+  
+  
+}
+
+.services {
+  width: 1168px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+ 
+}
+
+.service {
+  display: flex;
+  width: 331px;
+  justify-content: space-between;
+}
+
+.service > img{
+  margin-right: 25px;
+}
+
+.service-description > h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.txt{
+  margin: auto;
+  text-align: center;
+  width: 1104px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.photoes{
+  margin: auto;
+  
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 546px;
+
+}
+
+.photo > p {
+  text-align: center;
+  margin-top: 10px;
+  color:#B6B6B6;
+}
+.photo > h4 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+ }
+
+
+}
+
+.blok > li {
+color:#F38181 ;
+
+}
+
+
+.logo{
+  color: #95E1D3;
+  font-weight: bolder;
+  width: 98px;
+  height: 33px;
+}
+
+
+footer{
+  width: 1200px;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #B6B6B6;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.subscribe{
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe > input {
+  padding: 12px 0 11px 10px ;
+  border: 1px solid #B6B6B6;
+}
+
+.subscribe > button{
+padding: 13px 38px 13px 38px;
+border: none;
+background: #95E1D3;
+color: white ;
+
+}
+ 
+.footer-desc{
+  display: flex;
+  align-items: center;
+}
